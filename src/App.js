@@ -1,7 +1,7 @@
 import React, { Component } from "react"
 import { Route, BrowserRouter as Router, Switch, Redirect } from "react-router-dom"
 import Home from "./pages/Home"
-import Chat from "./pages/Chat"
+import Click from "./pages/Click"
 import Signup from "./pages/Signup"
 import Login from "./pages/Login"
 import { auth } from "./services/firebase"
@@ -49,7 +49,7 @@ class App extends Component {
       <Router>
         <Switch>
           <Route exact path="/" component={Home} />
-          <PrivateRoute path="/chat" authenticated={this.state.authenticated} component={Chat} />
+          <PrivateRoute path="/chat" authenticated={this.state.authenticated} component={Click} />
           <PublicRoute path="/signup" authenticated={this.state.authenticated} component={Signup} />
           <PublicRoute path="/login" authenticated={this.state.authenticated} component={Login} />
         </Switch>
