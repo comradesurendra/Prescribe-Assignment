@@ -16,3 +16,4 @@ export function writeChats(message) {
     timestamp: message.timestamp,
     uid: message.uid
   });
+}

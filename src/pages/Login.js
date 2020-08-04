@@ -55,7 +55,7 @@ export default class Login extends Component {
           <h1>
             Login to
             <Link className="title ml-2" to="/">
-              Chatty
+              CLink Button
             </Link>
           </h1>
           <p className="lead">Fill in the form below to login to your account.</p>
