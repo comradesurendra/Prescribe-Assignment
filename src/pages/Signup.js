@@ -45,7 +45,7 @@ export default class SignUp extends Component {
       <div>
         <form onSubmit={this.handleSubmit}>
           <h1>
-            Sign Up to<Link to="/">Chatty</Link>{" "}
+            Sign Up to<Link to="/">Fast Click</Link>{" "}
           </h1>
           <p>Fill in the form below to create an account.</p>
           <div>
@@ -58,7 +58,7 @@ export default class SignUp extends Component {
             {this.state.error ? <p>{this.state.error}</p> : null}
             <button type="submit">Sign up</button>
           </div>
-              < p > Or</p>
+              <p>Or</p>
           <button onClick={this.googleSignIn} type="button">
             Sign up with Google
           </button>

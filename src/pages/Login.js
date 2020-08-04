@@ -33,9 +33,9 @@ export default class Login extends Component {
         <form autoComplete="off" onSubmit={this.handleSubmit}>
           <h1>
             Login to
-            <Link to="/">Chatty</Link>
+            <Link to="/">Fast Click</Link>
           </h1>
-          <p>ll in the form below to login to your account.</p>
+          <p>Fill in the form below to login to your account.</p>
           <div>
             <input placeholder="Email" name="email" type="email" onChange={this.handleChange} value={this.state.email} />
           </div>
